@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #83AC72;
+}
+a:hover{
+	text-decoration: none;
+	color: #398439;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+body{
+	font-family: "黑体";
+	background: url(../img/bg1.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+.form-control:focus{
+	border-color: #83AC72;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.container .container-header{
+	text-align: center;
+	font-family:'隶书'; 
+}
+.container .container-body{
+	min-width: 450px;
+	max-width: 450px;
+	background: rgba(255,255,255,1);
+	margin: 0px auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	padding: 30px;
+}
+.container .container-body form .form-group input{
+	width: 80%;
+	margin-left: 20px;
+}
+.container .container-body form .form-group input.btn{
+	width: 20%;
+	margin: 0;
+}
+.form-group,.radio{
+	margin-bottom: 20px;
+}
+.form-control{
+	display: inline-block;
+}
+.container .container-body p{
+	text-align: center;
+}
+hr{
+	border-top: 1px solid #999;
+}
+@media only screen and (max-width: 640px){
+	.container .container-body{
+		min-width: initial;
+		max-width: initial;
+	}
+	.container .container-body form .form-group input{
+		width:70%;
+	}
+}

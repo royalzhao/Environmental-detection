@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>环评单位-首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="text/javascript" src="../js/jquery.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/assess-unit.css" />
+	</head>
+	<body>
+		
+		<!--头部导航-->
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="index.html" class="navbar-brand">环评单位</a>
+						<button type="button" class="navbar-toggle"
+						data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+							<li><a href="refer-project1.html"><span class="glyphicon glyphicon-book"></span>提交项目</a></li>
+							<li class="logout"><a href="#"><span class="glyphicon glyphicon-log-out"></span>退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!--主体内容-->
+		<div class="container">
+			<div class="index-content">
+				<h3><a href="townhouse.html"><span class="glyphicon glyphicon-user"></span>哈尔滨工业大学市政院</a></h3>
+				<hr />
+				<h4>黑龙江省评估中心</h4>
+				<ul>
+					<li>共计<span>64</span>个项目</li>
+					<li>其中<span>8</span>个项目即将开始受理</li>
+					<li>其中<span>4</span>个项目正在审批</li>
+				</ul>
+				<p>*请不要操作于旧系统中申报并被退回的项目</p>
+				<hr />
+				<!--所有项目内容，使用ul li循环-->
+				<ul class="index-content-list">
+					<li>
+						<div class="row">
+							<div class="col-md-1 col-sm-1 sol-xs-1">
+								#
+							</div>
+							<div class="col-md-5 col-sm-5 sol-xs-7">
+								项目名称
+							</div>
+							<div class="col-md-4  col-sm-4 hidden-xs">
+								建设单位
+							</div>
+							<div class="col-md-2 col-sm-2 sol-xs-4">
+								状态
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-md-1 col-sm-1 sol-xs-1">
+								1
+							</div>
+							<div class="col-md-5 col-sm-5 sol-xs-7">
+								<a href="project.html">同江市长恒热电新热源热电联产项目</a>
+							</div>
+							<div class="col-md-4  col-sm-4 hidden-xs">
+								同江市长恒热电有限公司
+							</div>
+							<div class="col-md-2 col-sm-2 sol-xs-4">
+								提交/审批完毕
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-md-1 col-sm-1 sol-xs-1">
+								2
+							</div>
+							<div class="col-md-5 col-sm-5 sol-xs-7">
+								<a href="#">五大连池国昌热力集中供热工程</a>
+							</div>
+							<div class="col-md-4  col-sm-4 hidden-xs">
+								五大连池国昌热力有限责任公司
+							</div>
+							<div class="col-md-2 col-sm-2 sol-xs-4">
+								提交/退回
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+				<div class="footer">
+					<p>【技术支持】<span class="glyphicon glyphicon-phone"></span>15776573881</p>
+					<p>(c) royal科技 2017 </p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

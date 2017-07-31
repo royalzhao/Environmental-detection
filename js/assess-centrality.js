@@ -1,0 +1,30 @@
+$(function(){
+	$("#xiangmuLI").click(function(){
+		$("#xiangmu").css("display","block");
+		$("#pinggu").css("display","none");
+		$("#beizhu").css("display","none");
+		$("#shezhi").css("display","none");
+		$("#xiangmuLI").addClass("active").siblings().removeClass("active")
+	});
+	$("#pingguLI").click(function(){
+		$("#pinggu").css("display","block");
+		$("#xiangmu").css("display","none");
+		$("#beizhu").css("display","none");
+		$("#shezhi").css("display","none");
+		$("#pingguLI").addClass("active").siblings().removeClass("active");
+	});
+	$("#beizhuLI").click(function(){
+		$("#beizhu").css("display","block");
+		$("#xiangmu").css("display","none");
+		$("#pinggu").css("display","none");
+		$("#shezhi").css("display","none");
+		$("#beizhuLI").addClass("active").siblings().removeClass("active");
+	});
+	$("#shezhiLI").click(function(){
+		$("#shezhi").css("display","block");
+		$("#xiangmu").css("display","none");
+		$("#pinggu").css("display","none");
+		$("#beizhu").css("display","none");
+		$("#shezhiLI").addClass("active").siblings().removeClass("active");
+	});
+});

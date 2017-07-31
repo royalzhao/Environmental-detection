@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+a{
+	color: #1F877F;
+}
+a:hover {
+    color: #60CFC7;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-family: "黑体";
+	background: url(../img/bg1.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.clearfix{
+	clear: both;
+}
+hr{
+	border-top: 1px solid #ccc;
+}
+.navbar .logout{
+	float: right;
+}
+.container .index-content{
+	background: rgba(255,255,255,1);
+	padding: 10px;
+	border-radius: 5px;
+}
+.container .collapse .nav li a span{
+	margin: 0 5px;
+}
+.container .index-content h3{
+	color: #1F877F;
+	text-align: right;
+	font-size: 20px;
+}
+.container .index-content h3 span{
+	margin: 0 5px;
+}
+.container .index-content h3 a{
+	color: #1F877F;
+}
+.container .index-content h3 a:hover{
+	color: #60CFC7;
+}
+.container .index-content h4{
+	width:300px;
+	height: 30px;
+	border-left: 5px solid #CCCCCC;
+	padding-left: 10px;
+	line-height: 30px;
+}
+.container .index-content ul li{
+	display: inline-block;
+	font-weight: bold;
+}
+.container .index-content ul li span{
+	font-size: 16px;
+	margin: 0 5px;
+}
+.container .index-content p{
+	color: #D43F3A;
+}
+.container .index-content .index-content-list li{
+	display: block;
+}
+.container .index-content .index-content-list li a:hover{
+	color: #60CFC7;
+}
+.container .index-content .index-content-list li:nth-of-type(1){
+	font-weight: bold;
+}
+.container .index-content .index-content-list li{
+	font-weight: normal;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 10px 0;
+}
+.container .index-content .footer{
+	margin-top: 50px;
+}
+.container .index-content .footer p{
+	color: #000000;
+	display: inline-block;
+}
+.container .index-content .footer p:nth-of-type(2){
+	float: right;
+}
+.container .index-content .functionary
+{
+	text-align: center;
+}
+.form-control:focus{
+	border-color: #83AC72;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+/*项目头部信息*/
+.container .row .project-content{
+	background: rgba(255,255,255,1);
+}
+.container .row .project-content .project-content-header{
+	text-align: center;
+}
+.container .row .project-content .project-content-header h5{
+	color: #B5B5B5;
+}
+.container .row .project-content .project-content-body{
+	background: #EEEEEE;
+	margin-top: 20px;
+}
+.container .row .project-content .project-content-body .project-list-header{
+	width: 100%;
+	height: 40px;
+	background: #5BC0DE;
+	padding:  0 10px;
+}
+.container .row .project-content .project-content-body .project-list-header li{
+	height: 35px;
+	margin-top: 5px;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 35px;
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+}
+.container .row .project-content .project-content-body .project-list-header li.active{
+	color: #5BC0DE;
+}
+/*项目信息*/
+#xiangmu{
+	display: block;
+}
+.container .row .project-content .project-content-body #xiangmu section .row div:nth-of-type(1){
+	text-align: right;
+	font-weight:bold ;
+}
+.container .row .project-content .project-content-body #xiangmu section p{
+	text-align: center;
+	color: #999;
+}
+
+/*评估信息*/
+#pinggu{
+	display: none;
+}
+.container .row .project-content .project-content-body #pinggu .pinggu-header{
+	display: flex;
+	display:-webkit-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.container .row .project-content .project-content-body #pinggu .pinggu-header li span{
+	font-size: 30px;
+	color: #EBE841;
+}
+.container .row .project-content .project-content-body #pinggu section .row div:nth-of-type(1){
+	text-align: right;
+	font-weight:bold ;
+}
+.container .row .project-content .project-content-body #pinggu section p{
+	text-align: center;
+	color: #999;
+}
+.container .row .project-aside{
+	background: rgba(255,255,255,1);
+	margin-left: 2%;
+	width: 23%;
+}
+.container .row .project-aside p{
+	text-align: left;
+	color: #666;
+}
+
+
+.container .row .refer-project-content{
+	background: rgba(255,255,255,1);
+}
+
+.container .row .refer-project-content .refer-project-content-header h5{
+	color: #B5B5B5;
+}
+.container .row .refer-project-content .refer-project-content-header{
+	padding:0px 10px;
+	border-left: 5px solid #CCCCCC;
+}
+.container .row .refer-project-content{
+	padding-bottom: 30px;
+}
+.container .row .refer-project-content form .form-group div:nth-of-type(1){
+	text-align: right;
+	line-height: 35px;
+}
+.container .row .refer-project-content form .form-group div:nth-of-type(2) input:nth-of-type(1){
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+
+
+.navbar-inverse{
+	background-color: #1f877f;
+	border-color: #1f877f;
+}	
+.navbar-inverse .navbar-brand {
+    color: #8ae7e0;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #8ae7e0;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #1f877f;
+    background-color: #60cfc7;
+}
+.navbar-nav > li:hover{
+	color: #1f877f;
+    background-color: #60cfc7;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #8ae7e0;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	color: #1f877f;
+}
+.container .row .project-content .project-content-body .project-list-header {
+    width: 100%;
+    height: 40px;
+    background: #60cfc7;
+    padding: 0 10px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #60cfc7;
+    border-color: #1f877f;
+}
+.btn-info:hover{
+	background-color: #1f877f;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: #60cfc7;
+}
+.navbar-inverse .navbar-toggle:focus{
+	background: #1f877f;
+}
+ .navbar-inverse .navbar-toggle:hover{
+ 	background: #60cfc7;
+ }
+@media only screen and (min-width: 992px){
+	.navbar-nav{
+		width: 90%;
+	}
+
+
+	
+	
+	
+	
+}
+@media only screen and (max-width: 768px){
+	.container .index-content .footer p:nth-of-type(2){
+		text-align: left;
+	}
+	.container .row .project-content .project-content-body #pinggu .pinggu-header li{
+		width: 24%;
+	}
+	.container .row .refer-project-content form .form-group div:nth-of-type(1){
+		text-align: left;
+		line-height: 35px;
+	}
+	.container .row .refer-project-content form .form-group div:nth-of-type(2) input:nth-of-type(1){
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.container .index-content .footer p:nth-of-type(2){
+		float: none;
+	}	
+	
+	
+}
